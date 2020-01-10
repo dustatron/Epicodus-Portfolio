@@ -269,6 +269,17 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hobbie--image-1 {
+  max-width: 32rem;
+  float: left;
+  margin: 15px;
+}
+
+.hobbie--image-2 {
+  max-width: 32rem;
+  float: right;
+  margin: 15px;
+}
 
 /* ------------------ Footer Section --------------------------  */
 
