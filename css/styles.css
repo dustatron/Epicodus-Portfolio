@@ -43,6 +43,11 @@ body {
 
 }
 
+strong {
+  font-size: 20px;
+  font-weight: 900;
+}
+
 
 .masthead-nav {
   float: right;
@@ -248,8 +253,8 @@ h3 {
 }
 
 .about--image-2 {
-  float: left;
-  max-width: 150px;
+  /* float: left; */
+  max-width: 200px;
   margin-right: 45px;
 }
 
@@ -262,6 +267,7 @@ h3 {
   font-weight: 700;
   font-size: 25px;
   text-decoration: underline;
+  margin-top: 20px;
 }
 
 /* ---------------- Background Section --------------  */
