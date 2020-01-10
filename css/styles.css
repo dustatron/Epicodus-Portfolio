@@ -23,8 +23,12 @@ body {
   /* font-family: 'Exo', sans-serif; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+  /* text-shadow: 0 1px 3px rgba(0, 0, 0, .5);s */
   margin: 0;
+}
+
+h4 {
+  font-size: 28px;
 }
 
 .site-wrapper {
@@ -44,7 +48,7 @@ body {
 }
 
 strong {
-  font-size: 20px;
+  /* font-size: 30px; */
   font-weight: 900;
 }
 
@@ -138,6 +142,11 @@ h1 {
   padding-bottom: 10px;
   border-bottom: 2px solid white;
 }
+
+.section-title {
+   text-shadow: 0 1px 3px rgba(0, 0, 0, .5);s
+}
+
 .bar {
   width: 150px;
   height: 8px;
@@ -171,9 +180,9 @@ h3 {
   padding-bottom: 5rem;
 }
 .proj-box {
-  border: 3px solid rgba(89, 89, 89, 0.345);
-  border-radius: 10px;
-  background-color: rgba(222, 222, 222, 0.379);
+  /* border: 3px solid rgba(89, 89, 89, 0.345); */
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.899);
   color: black;
   margin-bottom: 2.5rem;
   -webkit-box-shadow: -2px 0px 21px -9px rgba(0,0,0,0.35);
@@ -227,6 +236,7 @@ h3 {
   text-shadow: none;
   font-weight: 700;
   height: 4rem;
+  padding-right: 1rem;
 }
 
 .proj-box--links {
@@ -293,7 +303,7 @@ h3 {
 
 }
 .hobbie--image-1 {
-  max-width: 32rem;
+  max-width: 30rem;
   float: left;
   margin: 15px;
 }
@@ -314,6 +324,10 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /* ----------------- Skills Section ----------------------- */
