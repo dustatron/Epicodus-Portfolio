@@ -92,11 +92,82 @@ h1 {
 .btn:hover {
   color: #333;
   transform: scale(1.3);
-  transition: all .3s;
+  transition: all .5s;
   background-color: white;
   font-weight: 900;
 }
 
 .btn:focus{
   color: white;
+}
+
+.menu {
+  margin: 40px auto;
+}
+
+.menu ul li {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  transition: all .3s;
+  
+}
+
+.menu ul li:hover {
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.project-section {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/close-up-of-wooden-plank-326311.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-section {
+  /* background-color: white; */
+  width: 100%;
+  height: 500px;
+
+}
+
+
+.background-section {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/background-blur-clean-clear-531880.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.hobbies-section {
+  /* background-color: white; */
+  width: 100%;
+  height: 500px;
+
+}
+
+.skills-section {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  background-image: url("/img/close-up-dew-glass-moisture-459277.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
