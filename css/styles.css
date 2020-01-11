@@ -299,11 +299,11 @@ h3 {
   /* background-color: white; */
   width: 100%;
   height: auto;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 
 }
 .hobbie--image-1 {
-  max-width: 30rem;
+  max-width: 22rem;
   float: left;
   margin: 15px;
 }
@@ -335,7 +335,12 @@ h3 {
 .skills-section {
   width: 100%;
   height: auto;
-  padding-bottom: 40rem;
+  padding: 10px 10rem 40rem 10rem;
+
+}
+
+.skills-section p {
+  text-align: left;
 }
 
 .skills-img--1 {
