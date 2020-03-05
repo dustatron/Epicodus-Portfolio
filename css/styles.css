@@ -180,6 +180,14 @@ h3 {
   box-shadow: -2px 0px 21px -9px rgba(0, 0, 0, 0.35);
   overflow: hidden;
   height: 52rem;
+  transition: all 0.4s;
+}
+
+.project--box:hover {
+  transform: scale(1.03);
+  -webkit-box-shadow: -5px 0px 21px -9px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: -5px 0px 21px -9px rgba(0, 0, 0, 0.35);
+  box-shadow: -5px 0px 21px -9px rgba(0, 0, 0, 0.35);
 }
 
 .project--box a {
@@ -360,8 +368,24 @@ h3 {
   justify-content: center;
 }
 
+.contact-info {
+  transition: all .5s;
+}
+
+.contact-info:hover {
+  transform: scale(1.07);
+}
+
 /* -------------------- Media Query ------------------------------  */
 @media only screen and (max-width: 1300px) {
+  .contact-info {
+    padding-top: 15px;
+    display: block;
+    width: 100%;
+  }
+  .pipe {
+    display: none;
+  }
   #Projects .bar {
     display: block;
     margin: 10px auto;
